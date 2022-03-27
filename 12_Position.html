@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vagner">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    #um{
+        background: red;
+        padding: 10px;
+        width:100%;
+        height: 80px;
+        position: relative;/** passa relacionar com o absolute */
+        top:0px;/** top junto com relative não altera os elemento ao redor dele */
+        margin-top: 50px /** empura todos os elemento para baixo*/;
+
+    }
+
+    #dois{
+        background:orange;
+        padding:10px;
+        width:80%;
+        height:50px;
+        position:relative;/** serve para se relacionar com a absolute */
+     /* position:static;/** se eu colocar static ele passa se relacionar com o documento */
+        top: -20px;/** aqui o top serve para mover o elemento etc.. */
+        right:-25px;
+    }
+
+    #tres{
+        background:yellow;
+        width:25px;
+        height:25px;
+        position:absolute;/** absolute ele sozinho passa a se relaciona com o documento   */
+        /*position:fixed; ele deixa fixo do browser**/
+        bottom: 0;
+        right: 10px; /** jogar para direita */
+    }
+
+</style>
+
+</head>
+<body>
+    <h1>Position</h1>
+    <p><a href="https://www.4devs.com.br/gerador_de
+        _texto_lorem_ipsum">gerador de texto lorem ipsum</a></p>
+
+        <div id="container">
+
+            <div id="um">1
+                <div id="dois">2
+                    <div id="tres">3</div>
+
+                </div>
+
+            </div>
+            <p>
+                Lorem ipsum purus tellus varius in vel, et gravida feugiat sagittis etiam
+                maecenas sem, tellus integer gravida conubia augue. consectetur convallis 
+                sollicitudin lacinia curabitur dictum gravida aliquam nullam, sed risus sapien 
+                eleifend scelerisque rhoncus felis semper, massa platea quam convallis lectus 
+                sodales etiam. integer faucibus quisque habitasse velit orci gravida tempus 
+                hac, id donec semper dapibus fermentum quisque augue, torquent ad ligula nec 
+                vivamus platea varius. ad vestibulum cursus dictumst suscipit phasellus 
+                vulputate ut, dapibus class eu dapibus enim convallis quisque taciti, rhoncus 
+                metus lobortis odio egestas dolor. hac volutpat vulputate convallis sit arcu 
+                ante blandit, himenaeos rhoncus felis porta mi nec ante, nibh nisi pharetra 
+                cursus id faucibus scelerisque, dictumst lorem netus sociosqu quisque torquent. 
+            </p>
+
+            <p>
+                Feugiat egestas venenatis donec risus viverra etiam bibendum curabitur, ante 
+                vestibulum ultricies ipsum maecenas torquent vestibulum etiam nec, ultrices 
+                interdum habitasse diam faucibus pharetra sollicitudin. aliquet a lacus lectus 
+                dapibus nibh mi ut ad himenaeos commodo maecenas, donec lacus duis mauris 
+                litora viverra scelerisque ultricies ligula mauris tortor sollicitudin, ut 
+                potenti dolor sed aliquet feugiat at integer aliquet cras. feugiat nisi mauris 
+                diam suspendisse imperdiet auctor aenean pretium, dolor maecenas convallis 
+                nulla ligula volutpat egestas tortor, bibendum phasellus tristique est sem cras 
+                himenaeos. ante curabitur aliquet proin mauris odio laoreet consequat aptent, 
+                scelerisque molestie lobortis curabitur imperdiet enim fames aliquam, libero 
+                fermentum dapibus inceptos feugiat imperdiet etiam. 
+            </p>
+
+            <p>
+            Sapien posuere aliquam nullam sem cubilia tempus, etiam porttitor ligula pretium 
+            tortor class lacus, dui aliquam vivamus amet nostra. faucibus ut curabitur neque 
+            fames nullam netus lacinia suspendisse mollis sit rutrum, sollicitudin turpis enim 
+            nostra massa primis himenaeos facilisis dictum enim. etiam taciti fames commodo 
+            gravida lacus maecenas congue habitant purus scelerisque lorem, ligula aenean 
+            ligula dapibus ultricies arcu purus porttitor in morbi. quis eros metus ante 
+            porttitor consequat integer neque, mi neque pretium quisque ante praesent, auctor 
+            fermentum iaculis vehicula aliquam ut. mattis ac adipiscing sapien tempor cras 
+            vivamus dui, ad condimentum nec faucibus volutpat consequat volutpat, nunc nulla 
+            nibh congue nostra nullam, duis rhoncus fringilla ultrices netus donec. 
+            </p>
+
+            <p>
+            Vestibulum amet quisque nam nec per iaculis purus consequat, vivamus himenaeos 
+            posuere odio per dictum non tempus mattis, nulla velit porta vulputate adipiscing 
+            erat aenean. torquent mi ante tortor morbi dapibus cubilia nullam fusce, diam 
+            fringilla morbi nam morbi proin magna, pharetra curae laoreet faucibus nullam 
+            senectus id. potenti dui pharetra suspendisse senectus commodo lacus, malesuada 
+            amet dui at euismod dapibus, leo magna blandit ornare consequat. aenean vivamus 
+            eleifend proin nulla quam diam vel aliquet inceptos fames ut, mattis mauris potenti 
+            aenean ut imperdiet donec euismod congue non, ullamcorper ad odio habitant volutpat 
+            in quis enim sem proin. 
+            </p>
+
+            <p>
+                Purus scelerisque cursus placerat quis sem risus posuere rhoncus lorem quam, non 
+                integer interdum ut volutpat hendrerit quisque ut proin, primis mauris ultrices 
+                facilisis luctus faucibus aliquam porttitor mollis. eleifend maecenas hac nostra 
+                placerat turpis aliquam viverra bibendum pulvinar etiam, proin eget suspendisse 
+                scelerisque per ligula non cubilia magna, sed metus bibendum aptent tortor aenean 
+                condimentum vestibulum pellentesque. tellus at libero suspendisse porttitor 
+                feugiat erat, hac morbi platea eget. 
+            </p>
+
+        </div>
+</body>
+</html>
